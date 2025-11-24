@@ -72,12 +72,21 @@ td{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+th{
+    background-color: white;
+    width: 200px;
+    padding: 10px;
+}
+
 /*Borders*/
 
 .border{
     width: 345px;
     border: solid; 
+}
 
+.border2{
+    border: solid cyan;
 }
 
 /*palabras*/
