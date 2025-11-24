@@ -2,25 +2,43 @@
 
 body{
     background-color: rgb(216, 236, 255);
-}
-
-/*Header-1*/
-
-.alejate{
-    margin-left: 25px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 
+
+/*tamaño*/
+
+.width{
+    width: 20px;
+}
 
 /*posicionar*/
 
-.centro{
-    justify-content: center;
+
+
+
+.alejate{
+    margin-left: 17px;
+}
+
+.gap{
+    gap: 190px;
+}
+
+.gap2{
+    gap: 40px;
+}
+
+.center{
+    align-items: center;
 }
 
 /*aplicante*/
 
 .flex{
+    margin-top: 20px;
     display: flex;
 }
 
@@ -31,7 +49,8 @@ body{
     text-align: left;
     background-color: rgba(3, 66, 138, 0.384);
     color: white;
-    margin: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 1px;
 }
 
@@ -50,12 +69,26 @@ td{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/*palabras*/
+/*Borders*/
 
+.border{
+    border: solid;
+    padding-right: 200px;
+}
+/*palabras*/
+p{
+    font-size: 20px;
+}
 h2{
     padding-left: 20px;
 }
 
 h1{
     font-size: 25px;
+}
+
+.checkbox-grande {
+
+  -webkit-transform: scale(1.4);
+  margin-left: 20px;
 }
