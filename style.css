@@ -1,0 +1,61 @@
+/*background*/
+
+body{
+    background-color: rgb(216, 236, 255);
+}
+
+/*Header-1*/
+
+.alejate{
+    margin-left: 25px;
+}
+
+
+
+/*posicionar*/
+
+.centro{
+    justify-content: center;
+}
+
+/*aplicante*/
+
+.flex{
+    display: flex;
+}
+
+/*barra-titulo*/
+
+.titulo{
+    justify-content: start;
+    text-align: left;
+    background-color: rgba(3, 66, 138, 0.384);
+    color: white;
+    margin: 50px;
+    padding: 1px;
+}
+
+/*divs*/
+
+section{
+    padding-left: 120px;
+}
+
+/*tablas*/
+
+td{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*palabras*/
+
+h2{
+    padding-left: 20px;
+}
+
+h1{
+    font-size: 25px;
+}
