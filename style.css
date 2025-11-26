@@ -16,11 +16,12 @@ body{
 
 /*posicionar*/
 
+
 .margin{
     margin: 20px;
 }
 .alejate{
-    margin-left: 57px;
+    margin-left: 42px;
 }
 
 .gap{
@@ -48,7 +49,6 @@ body{
 /*barra-titulo*/
 
 .titulo{
-    justify-content: start;
     text-align: left;
     background-color: rgba(3, 66, 138, 0.384);
     color: white;
@@ -68,21 +68,21 @@ section{
 td{
     background-color: white;
     padding: 20px;
-    margin: 20px;
+    margin:20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 th{
     background-color: white;
-    width: 200px;
-    padding: 10px;
+    padding: 20px;
 }
 
 /*Borders*/
 
 .border{
     width: 345px;
-    border: solid; 
+    margin: -1px;
+    border: solid;
 }
 
 .border2{
@@ -106,4 +106,9 @@ h1{
 
   -webkit-transform: scale(1.4);
   margin-left: 20px;
+}
+
+header{
+    flex-wrap: wrap;
+    align-items: center;
 }
